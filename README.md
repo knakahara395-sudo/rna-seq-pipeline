@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[パブリックデータベース<br>DDBJ / ENA / NCBI] -->|RNA-seqデータ取得| B((全RNA-seqリード))
     
@@ -15,3 +16,4 @@ graph TD
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
     classDef exclude fill:#e2d9df,stroke:#333,stroke-width:2px,color:#666;
     class D exclude;
+```
