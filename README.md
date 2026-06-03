@@ -1,4 +1,4 @@
-# rna-seq-pipelinegraph TD
+graph TD
     A[パブリックデータベース<br>DDBJ / ENA / NCBI] -->|RNA-seqデータ取得| B((全RNA-seqリード))
     
     B --> C{1. 宿主ゲノムへの<br>マッピング}
